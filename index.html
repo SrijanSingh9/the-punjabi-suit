@@ -135,16 +135,19 @@
 
   <main class="flex-grow relative z-10 px-4 sm:px-6 lg:px-8 py-12 md:py-20">
     
+   <!-- Header / Hero Section -->
     <div class="max-w-6xl mx-auto text-center mb-16 md:mb-24 fade-in">
       <span class="inline-block py-2 px-6 rounded-full shimmer-badge text-xs font-semibold tracking-[0.3em] uppercase mb-8 shadow-lg">
         Grand Opening Soon
       </span>
       
-      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight leading-tight">
-        <span class="bg-clip-text text-transparent bg-gradient-to-b from-white via-heritage-cream to-amber-200/80 drop-shadow-lg">
+      <!-- Changed leading-tight to leading-normal to give the font breathing room -->
+      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight leading-normal">
+        <!-- Removed drop-shadow-lg, added inline-block and pb-2 to prevent the 'p' and 'j' from getting chopped off -->
+        <span class="inline-block bg-clip-text text-transparent bg-gradient-to-b from-white via-heritage-cream to-amber-200/90 pb-2">
           ThePunjabiSuit
         </span>
-        <span class="block text-2xl sm:text-3xl md:text-4xl font-light italic text-heritage-gold mt-2 text-shadow-gold">.in</span>
+        <span class="block text-2xl sm:text-3xl md:text-4xl font-light italic text-heritage-gold mt-0">.in</span>
       </h1>
       
       <div class="ornament-divider my-8"></div>
