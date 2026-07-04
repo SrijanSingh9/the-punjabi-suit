@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+  
+  <title>ThePunjabiSuit.in | Launching Soon - Exclusive Heritage Unstitched Suits</title>
+  <meta name="description" content="Discover the poetic legacy of the Punjabi unstitched suit. An exclusive collection of Phulkari, Chikankari, and heritage attire is launching soon." />
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            heritage: {
+              maroon: '#4a0e17',
+              gold: '#d4af37',
+              dark: '#0f0f0f',
+              cream: '#fdfbf7',
+              deepred: '#3a0c12',
+              mustard: '#c98f2c'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #0a0305;
+    }
+    
+    .glass-panel {
+      background: rgba(20, 8, 10, 0.85); /* Slightly darker for better readability */
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border: 1px solid rgba(212, 175, 55, 0.15);
+      box-shadow: 0 15px 40px 0 rgba(0, 0, 0, 0.8);
+    }
+    
+    .gold-glow {
+      box-shadow: 0 0 35px rgba(212, 175, 55, 0.15);
+    }
+    
+    .text-shadow-gold {
+      text-shadow: 0 2px 10px rgba(212, 175, 55, 0.3);
+    }
+    
+    .ornament-divider {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .ornament-divider::before,
+    .ornament-divider::after {
+      content: "";
+      height: 1px;
+      width: 80px;
+      background: linear-gradient(to right, transparent, #d4af37, transparent);
+    }
+    
+    /* Animations */
+    .fade-in { animation: fadeIn 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards; opacity: 0; transform: translateY(25px); }
+    .delay-100 { animation-delay: 0.1s; }
+    .delay-200 { animation-delay: 0.2s; }
+    .delay-300 { animation-delay: 0.3s; }
+    .delay-400 { animation-delay: 0.4s; }
+    .delay-500 { animation-delay: 0.5s; }
+
+    @keyframes fadeIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .hover-lift {
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    }
+    .hover-lift:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 20px 35px -10px rgba(212, 175, 55, 0.25);
+      border-color: rgba(212, 175, 55, 0.4);
+    }
+
+    /* Glowing Launching Soon Effects */
+    .glowing-text {
+      animation: textGlow 2.5s infinite alternate;
+    }
+    @keyframes textGlow {
+      0% { text-shadow: 0 0 10px rgba(212, 175, 55, 0.4), 0 0 20px rgba(212, 175, 55, 0.2); }
+      100% { text-shadow: 0 0 20px rgba(212, 175, 55, 0.9), 0 0 35px rgba(212, 175, 55, 0.6), 0 0 50px rgba(212, 175, 55, 0.4); }
+    }
+
+    .shimmer-badge {
+      background: linear-gradient(90deg, #4a0e17, #d4af37, #4a0e17);
+      background-size: 200% auto;
+      color: white;
+      animation: shimmer 3s linear infinite;
+    }
+    @keyframes shimmer {
+      to { background-position: 200% center; }
+    }
+
+    /* Custom scroll for elegance */
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #1a0508; }
+    ::-webkit-scrollbar-thumb { background: #4a0e17; border-radius: 10px; }
+
+    blockquote {
+      border-left: 3px solid #d4af37;
+      padding-left: 1.5rem;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body class="font-sans min-h-screen flex flex-col text-heritage-cream antialiased selection:bg-heritage-gold selection:text-heritage-dark">
+
+  <div class="fixed inset-0 pointer-events-none z-0 overflow-hidden">
+    <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-heritage-maroon/20 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-1/3 right-1/4 w-80 h-80 bg-heritage-gold/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-10 right-10 w-64 h-64 bg-amber-900/10 rounded-full blur-2xl"></div>
+  </div>
+
+  <main class="flex-grow relative z-10 px-4 sm:px-6 lg:px-8 py-12 md:py-20">
+    
+    <div class="max-w-6xl mx-auto text-center mb-16 md:mb-24 fade-in">
+      <span class="inline-block py-2 px-6 rounded-full shimmer-badge text-xs font-semibold tracking-[0.3em] uppercase mb-8 shadow-lg">
+        Grand Opening Soon
+      </span>
+      
+      <h1 class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-serif font-bold tracking-tight leading-tight">
+        <span class="bg-clip-text text-transparent bg-gradient-to-b from-white via-heritage-cream to-amber-200/80 drop-shadow-lg">
+          ThePunjabiSuit
+        </span>
+        <span class="block text-2xl sm:text-3xl md:text-4xl font-light italic text-heritage-gold mt-2 text-shadow-gold">.in</span>
+      </h1>
+      
+      <div class="ornament-divider my-8"></div>
+      
+      <h2 class="text-2xl md:text-4xl lg:text-5xl font-serif italic text-heritage-gold glowing-text font-light max-w-4xl mx-auto leading-relaxed">
+        Launching Soon
+      </h2>
+      <p class="mt-4 text-heritage-cream/70 tracking-widest uppercase text-sm md:text-base">
+        Prepare to own a piece of Punjab's soul
+      </p>
+    </div>
+
+    <div class="max-w-4xl mx-auto mb-16 md:mb-24 fade-in delay-100">
+      <div class="glass-panel rounded-3xl p-8 md:p-12 text-center gold-glow">
+        <p class="text-white leading-relaxed font-light text-lg md:text-2xl italic font-serif">
+          "In the heart of the Indian subcontinent, where the five rivers carve their ancient poetry into the earth, lies Punjab—a land of staggering vitality, golden wheat fields, and a cultural heritage as deep as the roots of the banyan tree."
+        </p>
+        <p class="text-heritage-cream/90 text-base md:text-lg mt-6 font-light tracking-wide">
+          We are currently curating an exclusive marketplace. Soon, these generational epics sung by the women of the household will be available for you to purchase, stitch, and cherish.
+        </p>
+      </div>
+    </div>
+
+    <section class="max-w-5xl mx-auto mb-20 md:mb-28 fade-in delay-200">
+      <div class="grid md:grid-cols-2 gap-8 items-stretch">
+        <div class="glass-panel rounded-3xl p-8 md:p-10 hover-lift flex flex-col justify-center">
+          <div class="text-heritage-gold text-4xl mb-6"><i class="fa-solid fa-feather"></i></div>
+          <h3 class="text-2xl md:text-3xl font-serif text-white mb-4">The Unstitched Canvas</h3>
+          <p class="text-heritage-cream/90 leading-relaxed font-light text-base md:text-lg">
+            Before it meets the tailor's shears, the unstitched suit is a canvas of pure possibility. For centuries, these folded lengths of fabric were the cornerstone of a woman's wardrobe and her artistic expression. 
+          </p>
+          <div class="mt-6 pt-6 border-t border-heritage-gold/20">
+            <p class="text-heritage-gold font-medium tracking-wide uppercase text-sm">
+              <i class="fa-solid fa-clock mr-2"></i> Upcoming Collection
+            </p>
+            <p class="text-heritage-cream/70 text-sm mt-2">
+              Our inaugural drop will feature hand-selected unstitched fabrics, ready to become whatever you dream them to be.
+            </p>
+          </div>
+        </div>
+        
+        <div class="glass-panel rounded-3xl p-8 md:p-10 hover-lift flex flex-col justify-center">
+          <p class="text-heritage-cream/90 leading-relaxed font-light text-base md:text-lg">
+            This unstitched status was profoundly democratic yet intimately personal. The fabric waited patiently in wooden chests, scented with dried neem leaves, holding potential. We are unlocking these chests for you.
+          </p>
+          <blockquote class="mt-6 text-heritage-cream/80 text-base italic">
+            "Gifting cloth—kapra—was, and remains, the ultimate gesture of respect. Soon, you can gift this heritage to yourself or your loved ones."
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto mb-20 md:mb-28 fade-in delay-300">
+      <div class="text-center mb-10">
+        <span class="text-heritage-gold text-sm tracking-[0.3em] uppercase font-semibold">Masterpieces for Sale Soon</span>
+        <h3 class="text-4xl md:text-5xl font-serif text-white mt-3">The Phulkari Edit</h3>
+      </div>
+      <div class="glass-panel rounded-3xl p-8 md:p-12 gold-glow">
+        <p class="text-white leading-relaxed font-light text-lg md:text-xl mb-8">
+          If the unstitched suit was the canvas, <strong class="text-heritage-gold">Phulkari</strong> was its most breathtaking masterpiece. It is the purest distillation of Punjab’s cultural heritage, and our master artisans are putting the final stitches on a limited-edition collection just for you.
+        </p>
+        
+        <div class="grid sm:grid-cols-2 gap-8 mt-8 bg-black/30 rounded-2xl p-6 md:p-8 border border-white/5">
+          <div>
+            <h4 class="text-heritage-gold font-serif text-2xl mb-3">Authentic Technique</h4>
+            <p class="text-heritage-cream/80 font-light text-base">Embroidered from the reverse side on hand-spun <em>khaddar</em>, using untwisted floss silk. You will soon be able to purchase suits featuring these exacting, centuries-old methods.</p>
+          </div>
+          <div>
+            <h4 class="text-heritage-gold font-serif text-2xl mb-3">The Bagh Gardens</h4>
+            <p class="text-heritage-cream/80 font-light text-base">A "garden" of silk where embroidery completely obscures the base fabric. Our upcoming <em>Bagh</em> collection offers museum-quality heirlooms for your personal wardrobe.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto mb-20 md:mb-28 fade-in delay-400">
+      <div class="glass-panel rounded-3xl p-8 md:p-12">
+        <h3 class="text-3xl md:text-4xl font-serif text-white mb-4 text-center">Curating a Tapestry of Influences</h3>
+        <p class="text-center text-heritage-cream/70 mb-10 max-w-2xl mx-auto">Explore the diverse craft traditions that will make up our opening catalog.</p>
+        
+        <div class="grid sm:grid-cols-3 gap-6 text-center">
+          <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+            <i class="fa-solid fa-feather-pointed text-heritage-gold text-4xl mb-4"></i>
+            <h4 class="font-serif text-white text-xl mb-2">Chikankari</h4>
+            <p class="text-heritage-cream/70 text-sm font-light">Delicate shadow-work from Awadh, perfect for summer elegance. <em>(Arriving in our Summer Drop)</em></p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+            <i class="fa-solid fa-gem text-heritage-gold text-4xl mb-4"></i>
+            <h4 class="font-serif text-white text-xl mb-2">Gota Patti</h4>
+            <p class="text-heritage-cream/70 text-sm font-light">Rajasthani gold and silver ribbon appliqué. <em>(Arriving in our Festive Edit)</em></p>
+          </div>
+          <div class="p-6 rounded-2xl bg-white/5 border border-white/10 hover:bg-white/10 transition-colors">
+            <i class="fa-solid fa-crown text-heritage-gold text-4xl mb-4"></i>
+            <h4 class="font-serif text-white text-xl mb-2">Tilla Work</h4>
+            <p class="text-heritage-cream/70 text-sm font-light">Regal gold and silver threads on velvet. <em>(Arriving in our Winter Trousseau)</em></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-5xl mx-auto mb-20 md:mb-28 fade-in delay-500">
+      <div class="glass-panel rounded-3xl p-8 md:p-12 text-center">
+        <h3 class="text-3xl md:text-4xl font-serif text-white mb-6">A Symphony of Colours</h3>
+        <p class="text-heritage-cream/90 font-light leading-relaxed text-lg mb-8 max-w-3xl mx-auto">
+          In Punjab, color is a language. From bright saffron to emerald green, our upcoming store will let you browse unstitched suits across an incredible spectrum of cultural hues.
+        </p>
+        <div class="flex flex-wrap justify-center gap-4 mb-4">
+          <span class="px-5 py-2.5 rounded-full bg-yellow-700/30 border border-yellow-600/50 text-amber-100 font-medium tracking-wide">Sarson (Mustard)</span>
+          <span class="px-5 py-2.5 rounded-full bg-red-900/40 border border-red-700/50 text-red-100 font-medium tracking-wide">Suhi (Deep Red)</span>
+          <span class="px-5 py-2.5 rounded-full bg-pink-900/40 border border-pink-700/50 text-pink-100 font-medium tracking-wide">Rani Pink</span>
+          <span class="px-5 py-2.5 rounded-full bg-green-900/40 border border-green-700/50 text-green-100 font-medium tracking-wide">Tota Rang (Parrot)</span>
+          <span class="px-5 py-2.5 rounded-full bg-cyan-900/40 border border-cyan-700/50 text-cyan-100 font-medium tracking-wide">Firozi (Turquoise)</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="max-w-4xl mx-auto text-center fade-in delay-300">
+      <div class="glass-panel rounded-3xl p-10 md:p-14 gold-glow relative overflow-hidden">
+        <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-32 bg-heritage-gold/20 blur-2xl rounded-full"></div>
+        
+        <i class="fa-solid fa-store text-heritage-gold text-5xl mb-6 relative z-10"></i>
+        <h2 class="text-3xl md:text-5xl font-serif text-white mb-6 glowing-text relative z-10">Opening Our Doors Soon</h2>
+        
+        <p class="text-white/90 font-serif italic text-xl md:text-2xl leading-relaxed relative z-10">
+          "The unstitched suit is deeply rooted in its traditions, unapologetically vibrant, and forever waiting to take shape around the life of the one who embraces it. We can't wait for you to make it yours."
+        </p>
+        
+        <div class="ornament-divider my-8 relative z-10"></div>
+        <p class="text-heritage-gold font-medium tracking-[0.2em] text-sm md:text-base relative z-10">
+          THE THREADS OF TIME • SOON AVAILABLE FOR YOU
+        </p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="w-full pb-10 pt-4 text-center relative z-10 fade-in delay-400">
+    <div class="flex flex-col items-center gap-3">
+      <p class="text-sm text-white/50 font-light tracking-widest uppercase">
+        &copy; 2026 ThePunjabiSuit.in &bull; Crafted with tradition in India
+      </p>
+      <p class="text-xs text-white/30 font-light tracking-widest uppercase mt-2">
+        Powered by <a href="https://ninekiwi.com" target="_blank" rel="noopener noreferrer" class="text-heritage-gold/70 hover:text-heritage-gold transition-colors underline underline-offset-4">ninekiwi.com</a>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
